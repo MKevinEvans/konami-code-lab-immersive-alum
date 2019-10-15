@@ -23,6 +23,25 @@ const codes = [
 
 function init() {
   // your code here
+  let index = 0;
+  function addListener(){
+    document.addEventListener('keydown', function(e){
+        if(e === codes[index]){
+            console.log(e);
+            index++
+            if(index >= codes.length){
+              alter("congrats")
+              }
+            }
+        } else {
+              index = 0
+        }
+    })
+  }
+  
+  function isCodeCorrect(e){
+    if(e === codes[index])
+  }
 }
 ```
 
