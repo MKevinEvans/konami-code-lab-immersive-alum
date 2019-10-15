@@ -30,7 +30,7 @@ function init() {
             console.log(e);
             index++
             if(index >= codes.length){
-              alter("congrats")
+              ater("congrats")
               }
             }
         } else {
