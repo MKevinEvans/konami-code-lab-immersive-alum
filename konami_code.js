@@ -22,7 +22,7 @@ function checkCode(e){
             console.log(e.key);
             index++
             if(index >= codes.length){
-            console.log("congrats")
+            alert("congrats")
             }
          } else {
               index = 0
