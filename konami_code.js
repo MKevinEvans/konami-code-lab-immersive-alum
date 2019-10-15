@@ -22,7 +22,8 @@ function checkCode(e){
             console.log(e.key);
             index++
             if(index >= codes.length){
-            alert("congrats")
+            alert("congrats");
+            index = 0;
             }
          } else {
               index = 0
